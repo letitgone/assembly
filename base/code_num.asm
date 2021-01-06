@@ -1,14 +1,14 @@
-assume cs:codes2
+assume cs:code_num
 
-codes2 segment
+code_num segment
 
     mov ax, 0
     mov cx, 123
     s:add ax, 236
-    loop segment
+    loop s
     mov ax, 4c00h
     int 21h
 
-codes2 ends
+code_num ends
 
 end
