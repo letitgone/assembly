@@ -6,7 +6,7 @@ abc segment
     add ax, ax
     add ax, ax
 
-    mov ax, 4c000H
+    mov ax, 4c00H
     int 21H
 
 abc ends
